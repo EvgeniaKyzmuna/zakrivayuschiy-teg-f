@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --main-font: inter;
+  --main-font: "Inter-Variable";
   --accent-font: "Press Start 2P";
   --heading-weight: 700;
   --text-weight: 400;
@@ -46,16 +46,3 @@
   }
 }
 
-@media only screen and (orientation: landscape) {
-
-  .page {
-    background-size: auto 100%;
-  }
-}
-
-@media only screen and (orientation: portrait) {
-  
-  .page {
-    background-size: 100% auto;
-  }
-}

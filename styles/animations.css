@@ -133,27 +133,7 @@
   transition: box-shadow 0.3s ease;
 }
 
-.filter-sepia,
-.filter-hue,
-.filter-bright,
-.filter-contrast,
-.filter-grayscale,
-.filter-saturate,
-.filter-dark,
-.filter-colorful {
-  transition: filter 0.3s ease;
-}
 
-.filter-sepia:hover,
-.filter-hue:hover,
-.filter-bright:hover,
-.filter-contrast:hover,
-.filter-grayscale:hover,
-.filter-saturate:hover,
-.filter-dark:hover,
-.filter-colorful:hover {
-  filter: none;
-}
 
 @media (prefers-reduced-motion: reduce) {
 
